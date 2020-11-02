@@ -41,6 +41,7 @@ group :development, :test do
   gem "factory_bot"
   gem "rspec"
   gem "rspec_junit_formatter"
+  gem 'ruby_jard'
 
   gem "debase", "~> 0.2.4"
   gem "ruby-debug-ide", "~> 0.7.0"

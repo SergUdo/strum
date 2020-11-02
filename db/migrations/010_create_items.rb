@@ -6,11 +6,11 @@ Sequel.migration do
     create_table(:items) do
       primary_key :id
 
-      column :name,        String,    null: false
-      column :description, String
+      # column :name,        String,    null: false
+      # column :description, String
 
-      column :created_at,  DateTime,  null: false
-      column :updated_at,  DateTime
+      # column :created_at,  DateTime,  null: false
+      # column :updated_at,  DateTime
     end
   end
 end

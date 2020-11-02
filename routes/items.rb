@@ -1,4 +1,5 @@
 # frozen_string_literal: true
+#require_relative '../serializers/item_serializer.rb'
 
 # Branch route /items
 class DemoStrumApp
